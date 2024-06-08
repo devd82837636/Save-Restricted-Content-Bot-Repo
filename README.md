@@ -1,13 +1,13 @@
 <h1 align="center">
-  <b>Save restricted Content Bot by <a href="https://devgagan.in"> devgagan.in </a>
+  <b>Save restricted Content Bot by <a href="https://t.me/botsByDev"> Dev </a>
 </h1> 
 
-Contact: [Telegram](https://t.me/devggn)
+Contact: [Telegram](https://t.me/botsByDev)
 
 ## Try Live Bot
-Bot link -https://t.me/advance_content_saver_bot
+Bot link -[https://t.me/botsByDev)
 
-### A stable telegram bot to get restricted messages with custom thumbnail support , made by [TEAM SPY](https://t.me/devggn) This bot can run in channels directly (in this case custom thumbnail not supported)
+### A stable telegram bot to get restricted messages with custom thumbnail support , made by [Dev](https://t.me/botsByDev) This bot can run in channels directly (in this case custom thumbnail not supported)
 
 - works for both public and private chats
 - Custom thumbnail support for Pvt medias
@@ -34,7 +34,7 @@ API: [Telegram.org](https://my.telegram.org/auth)
 
 PYROGRAM SESSION: Search for it ... Make sure the source be trusted otherwise it will lead to accound delete or ban
 
-# How to get vars - [TEAM SPY](https://t.me/devggn)
+# How to get vars - [Dev](https://t.me/botsByDev)
 
 BOT TOKEN: @Botfather on telegram
 
@@ -42,7 +42,7 @@ AUTH: Go to @missrose_bot, start and send /info to get your id
 
 FORCESUB: Before starting building bots create a public channel and get the username withou '@'
 
-# Deploying Guide - [TEAM SPY](https://t.me/devggn)
+# Deploying Guide - [Dev](https://t.me/botsByDev)
 
 ## Deploy on `VPS`
 
@@ -93,13 +93,13 @@ python3 -m main
 - connect to github and deploy
 - turn on dynos
 
-# Editing Repo - [TEAM SPY](https://t.me/devggn)
+# Editing Repo - [Dev](https://t.me/botsByDev)
 
 You can freely edit repo the customisation you can do is -
 - Change command pattern like `/batch` to other name (edit this in ```main/plugins/batch.py```) by searching and replacing `/batch` to desired command.
 - Adding Custom Text in caption (edit this in ```main/plugins/pyroplug.py```) search for 
 ```
-caption = f"{msg.caption}\n\n__Unrestricted by **[Team SPY](https://t.me/devggn)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/devggn)**__"
+caption = f"{msg.caption}\n\n__Unrestricted by **[Dev](https://t.me/botsByDev)**__" if msg.caption else "__Unrestricted by **[Dev](https://t.me/botsByDev)**__"
 ``` 
 change accordingly within ```f""```
 
@@ -107,7 +107,7 @@ change accordingly within ```f""```
 - Change Default thumbnail in main directory there is file named ```thumb.jpg``` remove that and upload your custom ```thumb.jpg```
 - Change cancel command (edit this also in ```batch.py```) search for ```/cancel``` and then change the command accordingly
 
-# Commands Available in Bot - [TEAM SPY](https://t.me/devggn)
+# Commands Available in Bot - [Dev](https://t.me/botsByDev)
 
 - ```/start``` - to start the bot
 - ```/batch``` - to download the files in range/bulk by giving one post link and range value
