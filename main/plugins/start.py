@@ -23,8 +23,8 @@ async def start(event):
     """
     user_id = event.sender_id
     buttons = [
-        [Button.url("Join Channel", url="https://t.me/devggn")],
-        [Button.url("Contact Me", url="https://t.me/ggnhere")],
+        [Button.url("Join Channel", url="https://t.me/botsByDev")],
+        [Button.url("Contact Me", url="https://t.me/botsByDev")],
     ]
     # Sending photo with caption and buttons
     await gagan.send_file(
@@ -124,7 +124,7 @@ async def youtube_dl_command(_, message):
 
             # Get video metadata
             metadata = video_metadata(original_file)
-            caption = f"{video_info['title']}\n\n__**Powered by [Advance Content Saver Bot](https://t.me/advance_content_saver_bot)**__"  # Set caption to the title of the video
+            caption = f"{video_info['title']}\n\n__**Powered by [Dev](https://t.me/botsByDev)**__"  # Set caption to the title of the video
             
             # Send the video file and thumbnail
             ggn = message.chat.id
@@ -162,7 +162,7 @@ def video_metadata(file):
     duration = round(frame_count / fps)
     return {'width': width, 'height': height, 'duration': duration}
 
-REPO_URL = "https://github.com/devgaganin"
+REPO_URL = "https://github.com/devd82837636"
 
 HELP_TEXT = """Here are the available commands:
 
